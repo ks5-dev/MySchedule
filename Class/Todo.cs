@@ -13,7 +13,6 @@ namespace MySchedule.Class
             this.title = title;
             this.description = description;
             this.due_date = due_date;
-            Console.WriteLine(db_location);
             this.AddToDb();
         }
         public void AddToDb()
